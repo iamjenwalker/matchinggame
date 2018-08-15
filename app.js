@@ -13,16 +13,16 @@ var vue = new Vue({
             counter: 0,
             counterView: false,
             cards: [
-                { name: 'one', src: 'one.jpg' },
-                { name: 'two', src: 'two.jpg' },
-                { name: 'three', src: 'three.jpg' },
-                { name: 'four', src: 'four.jpg' },
-                { name: 'five', src: 'five.jpg' },
-                { name: 'six', src: 'six.jpg' },
-                { name: 'seven', src: 'seven.jpg' },
-                { name: 'eight', src: 'eight.jpg' },
-                { name: 'nine', src: 'nine.jpg' },
-                { name: 'ten', src: 'ten.jpg' }
+                { name: 'one', src: 'cards/one.png' },
+                { name: 'two', src: 'cards/two.png' },
+                { name: 'three', src: 'cards/three.png' },
+                { name: 'four', src: 'cards/four.png' },
+                { name: 'five', src: 'cards/five.png' },
+                { name: 'six', src: 'cards/six.png' },
+                { name: 'seven', src: 'cards/seven.png' },
+                { name: 'eight', src: 'cards/eight.png' },
+                { name: 'nine', src: 'cards/nine.png' },
+                { name: 'ten', src: 'cards/ten.png' }
             ]
         };
     },
@@ -113,7 +113,7 @@ var vue = new Vue({
         var i = 0;
         cards.forEach(function() {
             var id = 'pair' + i.toString();
-            document.getElementById('pairs').innerHTML += '<div class="pairs--outer" id="' + id + '"><div class="pairs--back"><img src="card-back.jpg" alt="cardBack" height="100" width="80" /></div><div class="pairs" ><img src="' + cards[i].src + '" alt="" height="100" width="80"/></div></div>';
+            document.getElementById('pairs').innerHTML += '<div class="pairs--outer" id="' + id + '"><div class="pairs--back"><img src="cards/cardback.png" alt="cardBack" width="100" height="150" /></div><div class="pairs" ><img src="' + cards[i].src + '" alt="" width="100" height="150" /></div></div>';
             i++;
         });
 

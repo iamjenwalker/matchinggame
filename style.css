@@ -192,20 +192,20 @@
 #pairs{
   width: 70%;
   margin: 0 auto;
-  background-image: url('/background.jpg');
+  background-image: url('background.jpg');
   float: left;
   margin: 2% 15%;
-  padding: 5% 0%;
+  padding: 2%;
   overflow: hidden;
 }
 
 .pairs--outer{
   float: left;
-  width: 80px;
+  width: 100px;
   position: relative;
-  height: 100px;
+  height: 150px;
   cursor: pointer;
-  margin: 1% 1%;
+  margin: 1%;
   display: block;
   perspective: 1000px;
 }
@@ -288,25 +288,24 @@
   font-family: 'Roboto', cursive;
   width: 100%;
   font-size: 3em;
-  color: #ffcb05  ;
-  text-shadow: 3px 3px 1px #3b5aa6 ;
+  color: #ff595b;
   float: left;
-  margin: 0 0% 0 0% ;
+  margin: 0;
   text-align: center;
 }
 
 #matched--cards{
   font-family: 'Roboto', cursive;
   font-size: 3em;
-  color: #f9352e;
-  text-shadow: 3px 3px 1px #3b5aa6 ;
+  color: #ffffff;
+  text-shadow: 3px 3px 1px #9a9a9a;
   float: left;
-  margin: 0 0% 0 0% ;
+  margin: 0;
   text-align: center;
   position: absolute;
   z-index: 100;
-  left: 25%;
-  width: 50%;
+  left: 0%;
+  width: 100%;
   transform: translateY(-1000px);  ;
   -webkit-transform: translateY(-1000px);  ;
   -moz-transform: translateY(-1000px);  ;
@@ -322,9 +321,7 @@
 #wrapper > h1{
   font-size: 3em;
   font-family: 'Roboto', cursive;
-  color: #08366E;
-  width: 80%;
-  margin: 1% 10%;
+  color: #0089eb;
+  margin: 4% 0 2% 0;
   text-align: center;
-  text-shadow: 3px 3px 1px #ffcb05 ;
 }
